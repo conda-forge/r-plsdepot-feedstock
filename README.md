@@ -1,11 +1,11 @@
-About r-plsdepot
-================
+About r-plsdepot-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plsdepot-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.gastonsanchez.com/plsdepot, http://www.plsmodeling.com
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-plsdepot-feedstock/blob/main/LICENSE.txt)
 
 Summary: plsdepot contains different methods for PLS analysis of one or two data tables such as Tucker's Inter-Battery, NIPALS, SIMPLS, SIMPLS-CA, PLS Regression, and PLS Canonical Analysis. The main reference for this software is the awesome book (in French) 'La Regression PLS: Theorie et Pratique' by Michel Tenenhaus.
 
