@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plsdepot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plsdepot/plsdepot_{{ version }}.tar.gz
-  sha256: 8eefc5ec8ce8c1776d84e58ea27bb3411e57bc3f64b346c03279e9f8a66b5158
+  sha256: b0b4d8dbdcefc6f37a0fcc35008ff2cca0309f5671dc7ad5b3b2997a98615be7
 
 build:
-  number: 3
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
