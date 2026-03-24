@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/plsdepot_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/plsdepot/plsdepot_{{ version }}.tar.gz
-  sha256: b0b4d8dbdcefc6f37a0fcc35008ff2cca0309f5671dc7ad5b3b2997a98615be7
+  sha256: 439d77814dbf79484aefbf483174eb3849d797491d6ecc5670a0650bf1ffc966
 
 build:
   number: 0
